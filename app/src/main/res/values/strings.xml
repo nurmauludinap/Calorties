@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Calorties</string>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <string name="title_activity_food_detail">FoodDetailActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="required">Required</string>
+    <string name="host">https://calorties-api-hi7d2j4ixa-et.a.run.app</string>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="policy_description">Kebijakan privasi ini menjelaskan bagaimana kami, (Calorties dan afiliasi-afiliasi, atau “kami”) mengumpulkan, menyimpan, menggunakan, mengolah, mengungkapkan, dan melindungi informasi pribadi anda. Kebijakan privasi ini berlaku semua yang menggunakan produk aplikasi, baik melalui aplikasi seluler Calorities.</string>
+    <string name="policy_description2">Kebijakan privasi ini menjelaskan hal-hal sebagai berikut :</string>
+    <string name="section_1_title">1. Data pribadi yang kami kumpulkan</string>
+    <string name="section_2_title">2. Penggunaan informasi pribadi Anda</string>
+    <string name="section_3_title">3. Berbagi informasi pribadi Anda</string>
+    <string name="section_4_title">4. Penyimpanan informasi pribadi Anda</string>
+    <string name="section_5_title">5. Akses dan koreksi informasi pribadi Anda</string>
+    <string name="section_6_title">6. Perubahan atas kebijakan privasi</string>
+    <string name="section_7_title">7. Cara untuk menghubungin pihak Calorties</string>
+
+    <string name="section_1_content">Informasi pribadi yang kami kumpulkan adalah informasi data diri yang dapat diidentifikasikan atau dapat digunakan untuk mengidentifikasi, menghubungi orang atau perangkat yang terkait dengan informasi tersebut. Informasi pribadi meliputi nama, alamat email, tanggal lahir, tinggi badan, berat badan, dan jenis kelamin. Informasi pribadi yang kami kumpulkan dapat diberikan oleh Anda secara langsung atau oleh pihak ketiga (misalnya: Ketika mendaftar atau menggunakan aplikasi, Ketika menghubungi layanan pelanggan kami, atau sebaliknya ketika anda memberikan informasi pribadi kepada kami). Kami mendapatkan informasi dalam berbagai macam bentuk dan tujuan (yang diizinkan berdasarkan peraturan perundang-undangan yang berlaku).</string>
+    <string name="section_2_content">Untuk memberikan jasa kami dan meningkatkan pengalaman Anda dalam menggunakan layanan kami. Informasi pribadi Anda dikumpulkan dengan tujuan sebagai berikut maupun untuk tujuan lain yang diizinkan oleh peraturan perundang-undangan yang berlaku.</string>
+    <string name="section_3_content">Kami dapat membagikan informasi peribadi anda dengan pihak lain untuk tujuan berikut serta tujuan lain yang diizinkan oleh peraturan perundang-undangan yang berlaku :</string>
+    <string name="section_4_content">Informasi pribadi anda hanya akan disimpan selama diperlukan untuk memenuhi tujuan dari pengumpulannya, atau selama penyimpanan tersebut diperlukan atau diperbolehkan oleh peraturan perundang-undangan yang berlaku.</string>
+    <string name="section_5_content">Anda dapat meminta kepada kami untuk mengakses dan/atau mengoreksi informasi pribadi anda yang berada dalam kepemilikan dan penguasaan kami, dengan menghubungi kami melalui perincian yang disediakan di bawah. Kami berhak menolak permintaan anda untuk mengakses, atau untuk memperbaiki, sebagian atau semua informasi pribadi anda yang kami miliki jika diizinkan atau diperlukan berdasarkan aturan perundang-undangan yang berlaku.</string>
+    <string name="section_6_content">Kami mengubah kebijakan privasi ini atas kebijakan kami sendiri dari waktu ke waktu, untuk memastikan bahwa kebijakan privasi ini konsisten dengan perkembangan kami di masa depan, dan/atau perubahan aturan hukum. Jika terjadi perubahan, kami akan memberitahukan perubahan tersebut melalui pemberitahuan umum yang dipublikasikan pada aplikasi, atau ke alamat e-mail yang tercantum pada akun anda. Anda setuju bertanggung jawab dalam meninjau kebijakan privasi ini secara teratur untuk informasi terbaru mengenai pengolahan data dan praktik perlindungan data kami dengan anda menggunakan aplikasi kami setelah adanya perubahan apapun terhadap kebijakan privasi ini dan segala perubahannya.</string>
+    <string name="section_7_content">Jika anda memiliki pertanyaan, keluhan, atau saran mengenai kebijakan privasi atau praktik privasi jelajahin, ingin menghubungi pihak perlindungan data kami, anda dapat menghubungi kami di privacy@calorities.com </string>
+
+    <string name="work_1_content">1. Pada saat pengguna Calorties mendaftar masuk ke dalam aplikasi Calorties, sistem akan meminta informasi akun yang harus diisi.</string>
+    <string name="work_2_content">2.	Dengan informasi tersebut, pengguna dapat mengetahui informasi kalori yang dibutuhkan.</string>
+    <string name="work_3_content">3.	Hasil ini memudahkan pengguna Calorties untuk mengontrol kalori yang masuk ke dalam tubuhnya.</string>
+
+    <string name="use_1_content">1.	Setelah anda mendaftarkan akun di aplikasi Calorties, anda dapat melihat ringkasan kalori yang anda butuhkan beserta kalori anda perminggu di halaman Home.</string>
+    <string name="use_2_content">2.	Anda dapat memulai untuk mengambil foto buah melalui kamera atau memasukkan foto buah dari galeri di bagian pilih gambar makanan.</string>
+    <string name="use_3_content">3.	Ketika foto berhasil untuk dipilih atau diunggah, aplikasi Calorties akan otomatis mendeteksi berapa besar kalori dari buah tersebut dan disesuaikan dengan informasi data diri pengguna.</string>
+    <string name="use_4_content">4.	Foto yang sudah diunggah akan masuk ke dalam History Kalori Anda sehingga anda bisa memantau kalori anda setiap harinya</string>
+    <string name="use_5_content">5.	Anda juga dapat melihat Detail Kalori Anda setiap harinya dengan menekan salah satu history kalori yang ada.</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description
+    </string>
+
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="28dp"
+        android:paddingVertical="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:text="Registrasi"
+            android:textColor="#F1AC18"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_editable_text"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingVertical="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_editable_text"
+            android:ems="10"
+            android:hint="Username"
+            android:paddingVertical="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/custom_editable_text"
+                android:ems="10"
+                android:hint="Kata Sandi"
+                android:inputType="textPassword"
+                android:paddingVertical="8dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/et_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/custom_editable_text"
+                android:ems="10"
+                android:hint="Konfirmasi Kata Sandi"
+                android:inputType="textPassword"
+                android:paddingVertical="8dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/et_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_editable_text"
+            android:ems="10"
+            android:hint="Berat badan"
+            android:inputType="number"
+            android:paddingVertical="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <EditText
+            android:id="@+id/et_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_editable_text"
+            android:ems="10"
+            android:hint="Tinggi Badan"
+            android:inputType="number"
+            android:paddingVertical="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <EditText
+            android:id="@+id/et_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_editable_text"
+            android:ems="10"
+            android:hint="Tanggal Lahir"
+            android:paddingVertical="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:inputType="none"
+            android:clickable="true"
+            android:focusable="false"/>
+
+        <Spinner
+            android:id="@+id/et_gender"
+            android:background="@drawable/custom_editable_text"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="12dp"
+            android:entries="@array/gender_options" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#79A33D"
+            android:onClick="onRegister"
+            android:text="Daftar"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Sudah punya akun Calorties?"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/login_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="Masuk Yuk!"
+            android:textColor="#F1AC18"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</ScrollView>

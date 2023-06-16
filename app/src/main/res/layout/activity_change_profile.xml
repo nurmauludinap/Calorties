@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- Navigation Bar -->
+        <LinearLayout
+            android:id="@+id/navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <!-- Back Button -->
+            <ImageButton
+                android:id="@+id/backBtn"
+                android:layout_width="47dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:contentDescription="backbtn"
+                android:src="@drawable/ic_back"
+                app:tint="@color/primary" />
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="14dp"
+                android:gravity="center"
+                android:text="Ubah Profile"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="12dp">
+
+            <LinearLayout
+                android:layout_marginHorizontal="16dp"
+                android:id="@+id/ll_main_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_editable_text"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:paddingVertical="8dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp" />
+
+
+                <EditText
+                    android:id="@+id/et_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/custom_editable_text"
+                    android:ems="10"
+                    android:hint="Berat badan"
+                    android:inputType="number"
+                    android:paddingVertical="8dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp" />
+
+                <EditText
+                    android:id="@+id/et_height"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/custom_editable_text"
+                    android:ems="10"
+                    android:hint="Tinggi Badan"
+                    android:inputType="number"
+                    android:paddingVertical="8dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp" />
+
+                <EditText
+                    android:id="@+id/et_birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/custom_editable_text"
+                    android:clickable="true"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:hint="Tanggal Lahir"
+                    android:inputType="none"
+                    android:paddingVertical="8dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp" />
+
+                <Spinner
+                    android:id="@+id/et_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/custom_editable_text"
+                    android:entries="@array/gender_options"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="8dp" />
+
+                <Button
+                    android:id="@+id/saveBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:backgroundTint="#79A33D"
+                    android:onClick="onRegister"
+                    android:text="Simpan"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
